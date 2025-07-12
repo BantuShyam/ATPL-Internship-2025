@@ -1,0 +1,8 @@
+every : 1
+hello : 1
+hii : 1
+is : 1
+one : 1
+shyam : 1
+sundar : 1
+this : 1
