@@ -1,0 +1,5 @@
+Student[name=Shyam, age=21, department=CSE, gpa=8.45]
+Student[name=Balaram, age=22, department=ECE, gpa=9.12]
+Student[name=Akash, age=20, department=Mechanical, gpa=7.90]
+Student[name=Kalyan, age=23, department=Civil, gpa=8.02]
+Student[name=Sai, age=21, department=IT, gpa=8.60]
