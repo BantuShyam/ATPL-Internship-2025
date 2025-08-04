@@ -1,0 +1,83 @@
+/* Global layout for full-page centering */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    flex-direction: column;
+}
+
+/* Link at the top (Add New Todo) */
+a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* Table layout */
+table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Row colors based on status */
+td.status-todo {
+    background-color: #f1c40f33;
+}
+
+td.status-inprogress {
+    background-color: #3498db33;
+}
+
+td.status-done {
+    background-color: #2ecc7133;
+}
+
+/* Buttons */
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.mark-progress {
+    background-color: #3498db;
+    color: white;
+}
+
+button.mark-progress:hover {
+    background-color: #2980b9;
+}
+
+button.mark-done {
+    background-color: #2ecc71;
+    color: white;
+}
+
+button.mark-done:hover {
+    background-color: #27ae60;
+}

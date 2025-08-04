@@ -1,0 +1,28 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="3.0">
+    <servlet>
+        <servlet-name>AddTodo</servlet-name>
+        <servlet-class>com.aaslin.servlets.AddTodoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddTodo</servlet-name>
+        <url-pattern>/addTodo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateStatus</servlet-name>
+        <servlet-class>com.aaslin.servlets.UpdateStatusServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateStatus</servlet-name>
+        <url-pattern>/UpdateStatusServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ViewTodos</servlet-name>
+        <servlet-class>com.aaslin.servlets.ViewTodosServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewTodos</servlet-name>
+        <url-pattern>/viewTodos</url-pattern>
+    </servlet-mapping>
+</web-app>
