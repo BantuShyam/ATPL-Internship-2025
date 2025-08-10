@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+       <!--  <bean id="student" class="com.aaslin.springPractice.SpringDemo.Student">
+       		 <property name="name" value="shyam"/>
+        </bean>
+        <bean id="college" class="com.aaslin.springPractice.SpringDemo.College">
+       		 <property name="student" ref="student"/>
+        </bean>
+         <bean id="teacher" class="com.aaslin.beanLifeCycle.Teacher"/> 
+        <bean id="course" class="com.aaslin.constructorInjection.Course">
+       		 <constructor-arg value="Spring"/>
+        </bean>
+        <bean id="facultyBean" class="com.aaslin.constructorInjection.Faculty">
+       		 <constructor-arg  ref="course"/>
+        </bean>
+           <bean id="teacher" class="com.aaslin.beanLifeCycle.Teacher"/> 
+           <bean id="teach" class="com.aaslin.beanLifeCycle.Teacher" init-method="init" destroy-method="destroy"/> 
+           <bean id="book" class="com.aaslin.setterInjection.Book">
+           <property name="bookName" value="Java advanced"/>
+           </bean>
+            <bean id="library" class="com.aaslin.setterInjection.Library">
+           <property name="book" ref="book"/>
+           </bean> -->
+			<bean id="library" class="com.aaslin.multipleDependency.Library">
+			<property name="bookName" value="Alic in wonderland"/>
+			</bean>
+			<bean id="faculty" class="com.aaslin.multipleDependency.Faculty">
+			<property name="faculty_name" value="Shyam"/>
+			</bean>
+			<bean id="university" class="com.aaslin.multipleDependency.University">
+			<property name="universityName" value="Andhra University"/>
+			</bean>
+</beans>
