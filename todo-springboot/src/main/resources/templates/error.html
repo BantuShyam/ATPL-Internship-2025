@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Error</title>
+    <meta charset="UTF-8">
+    <style>
+        body { font-family: Arial, sans-serif; background: #f8f8f8; text-align: center; padding: 50px; }
+        .error-box { background: #fff3f3; border: 1px solid #ffcccc; padding: 20px; display: inline-block; border-radius: 8px; }
+        h2 { color: #cc0000; }
+        p { color: #333; }
+        a { text-decoration: none; color: #0066cc; }
+    </style>
+</head>
+<body>
+    <div class="error-box">
+        <h2>⚠ Error</h2>
+        <p th:text="${errorMessage}">An unexpected error occurred.</p>
+        <p><a th:href="@{/todos}">Go Back to Task List</a></p>
+    </div>
+</body>
+</html>
