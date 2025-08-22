@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks</title>
+    <style>
+        .student{
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="student">
+    <h1>Enter Student Marks</h1>
+    <label for="subject">Select Student:</label>
+    <select name="subject">
+        <option value="default" selected>--Select--</option>
+        <option value="shyam">Shyam</option>
+        <option value="Balaram">Balaram</option>
+        <option value="Akbar">Akbar</option>
+        <option value="Manoj">Manoj</option>
+    </select>
+    <br><br>
+    <table border="1" style="width:200px">
+        <tr>
+        <th>Subject</th>
+        <th >Marks (out of 100)</th>
+        </tr>
+        <tr>
+        <td>Maths</td>
+        <td >
+            <input type="number" style="width:60px">
+        </td>
+        </tr>
+        <tr>
+        <td>Science</td>
+        <td>
+            <input type="number" style="width:60px">
+        </td>
+        </tr>
+        <tr>
+        <td>English</td>
+        <td>
+            <input type="number" style="width:60px">
+        </td>
+        </tr>
+        <tr>
+        <td>History</td>
+        <td>
+            <input type="number" style="width:60px">
+        </td>
+        </tr>
+    </table>
+    <br><br>
+    <input  style="width:100px; height:30px; font-size: 15px; " type="submit" value="Submit">
+    </div>
+</body>
+</html>
