@@ -1,0 +1,42 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background-color: #f8f8f8;
+}
+
+.pricing-table{
+    text-align: center;
+}
+
+.pricing-box{
+    display:inline-block;
+    width:180px;
+    margin:10px;
+    border:2px solid #333;
+    border-radius: 6px;
+    background-color: #fff;
+    vertical-align: bottom;
+}
+
+.pricing-box h3{
+    margin: 2;
+    font-size: 18px;
+}
+
+.price{
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.pricing-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.pricing-box li {
+  margin: 5px 0;
+  color: #333;
+}
