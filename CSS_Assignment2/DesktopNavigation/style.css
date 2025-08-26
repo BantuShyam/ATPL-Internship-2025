@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+.flex-container {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000d0;
+}
+.flex-container a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px 15px;
+ }
+.flex-container a:hover {
+    background-color: grey;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.productplans {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #80808050;
+    gap: 30px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+
+.plan {
+    margin: 30px 50px;
+    background-color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 20px 20px 20px grey;
+
+}
+
+p {
+    color: #008cff;
+}
+
+button {
+    padding: 10px;
+    color: aliceblue;
+    background-color: #008cff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.5;
+}

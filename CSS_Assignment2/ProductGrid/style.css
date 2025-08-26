@@ -1,0 +1,19 @@
+.products{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #80808020;
+    gap:10px;
+    padding:10px;
+}
+
+.product{
+    padding:25px;
+    text-align:center;
+    background-color:#80808050;
+    justify-content: center;
+}
+
+.product:first-child{
+    grid-column: span 2;
+    background-color: gray;
+}
