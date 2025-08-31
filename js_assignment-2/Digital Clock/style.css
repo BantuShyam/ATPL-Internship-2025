@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.container {
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+#clock {
+  font-size: 40px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* Light Mode */
+.light {
+  background: #f4f4f9;
+  color: #333;
+}
+
+/* Dark Mode */
+.dark {
+  background: #222;
+  color: #f9f9f9;
+}
